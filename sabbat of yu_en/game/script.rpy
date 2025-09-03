@@ -10,6 +10,7 @@ define en = Character("宇恩")
 
 define cn = Character("楚南")
 
+image en_pose = "images/yuen@5.png"
 
 # 遊戲從這裡開始。
 
@@ -25,7 +26,7 @@ label start:
     # 透過將名為 "eileen happy.png" 的檔案
     # 新增至 images 目錄來取代它。
 
-    show eileen happy
+    
 
     # 這些顯示對話行。
 
@@ -36,6 +37,8 @@ label start:
     "但是現在......為甚麼我在凌晨3點出現在教室呢？"
 
     xv "阿拉阿拉，這不是我們敬愛的蕭楚南同學嗎？"
+
+    show en_pose
 
     cn "......宇恩？"
 
